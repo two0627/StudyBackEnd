@@ -19,7 +19,7 @@ connection.connect((err) => {
   } else {
     console.log('DB 연결 성공!');
 
-    // 여기에 데이터베이스 쿼리 실행 코드 추가
+    // 데이터베이스 쿼리 실행 코드 추가
     connection.query('SELECT * FROM users', (error, results) => {
       if (error) {
         console.error('쿼리 실행 실패:', error);
