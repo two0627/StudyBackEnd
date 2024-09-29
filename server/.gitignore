@@ -1,0 +1,39 @@
+node_modules/
+.env
+Application Data/
+Cookies/
+Documents/My Music/
+Documents/My Pictures/
+Documents/My Videos/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Templates/
+시작 메뉴/
+AppData/
+NTUSER.DAT*
+ntuser.dat*
+.bash_history
+.cache/
+.eclipse/
+.gitconfig
+.lesshst
+.node_repl_history
+.p2/
+.packettracer
+.vscode/
+3D Objects/
+Cisco Packet Tracer 8.2.2/
+Contacts/
+Downloads/
+Favorites/
+Links/
+Music/
+OneDrive/
+Saved Games/
+Searches/
+Videos/
+eclipse-workspace/
