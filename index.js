@@ -34,7 +34,7 @@ app.put('/api/posts/:id', (req, res) => {
       posts[postIndex] = { id: parseInt(id), ...req.body };
       res.json(posts[postIndex]);
   } else {
-      res.status(404).json({ message: 'Post not found' });
+      res.status(404).json({ message: '포스트를 찾을 수 없습니다.' });
   }
 });
 
@@ -47,6 +47,6 @@ app.delete('/api/posts/:id', (req, res) => {
 
 // 서버 시작
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`서버가 http://localhost:${PORT}에서 실행중입니다. `);
 });
 
